@@ -1,0 +1,71 @@
+#main_container {
+    border: solid black 10px;
+}
+
+#agario {
+    border: solid blue 5px;
+
+    display: inline-flex;
+    flex-direction: column;
+    border-radius: 6px;
+}
+
+#agario div:nth-child(1) {
+    border: solid red 5px;
+    text-align: center;
+}
+
+#agario div:nth-child(1) img {
+    /* border: solid purple 10px; */
+
+    margin-top: 5px;
+}
+
+#agario div:nth-child(2) {
+    border: solid green 5px;
+}
+
+#agario div:nth-child(2) button {
+    margin-left: 10px;
+}
+
+#agario:hover {
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+#diepio {
+    border: solid blue 5px;
+
+    display: inline-flex;
+    flex-direction: column;
+    border-radius: 6px;
+}
+
+#diepio div:nth-child(1) {
+    border: solid red 5px;
+    text-align: center;
+}
+
+#diepio div:nth-child(1) img {
+    /* border: solid purple 10px; */
+
+    margin-top: 5px;
+}
+
+#diepio div:nth-child(2) {
+    border: solid green 5px;
+}
+
+#diepio div:nth-child(2) button {
+    margin-left: 10px;
+}
+
+#diepio:hover {
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+#play_btn {
+    margin-left: 45%;
+}
